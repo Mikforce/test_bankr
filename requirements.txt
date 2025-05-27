@@ -1,0 +1,28 @@
+# Core libraries for document processing and generation
+python-docx>=1.1.0,<2.0.0
+docxtpl>=0.16.0,<0.17.0
+pandas>=2.0.0,<3.0.0
+openpyxl>=3.0.0,<4.0.0 # For .xlsx Excel files
+# xlrd >= 1.2.0, <2.0.0 # For .xls Excel files (опционально, если нужны старые форматы Excel)
+
+# PDF processing
+# pypdf>=3.0.0,<4.0.0 # Современный форк PyPDF2
+# или PyPDF2, если предпочитаете
+PyPDF2>=3.0.0,<4.0.0 # Если используете PyPDF2 вместо pypdf
+
+# OCR capabilities
+Pillow>=9.0.0,<11.0.0     # PIL fork for image manipulation
+pytesseract>=0.3.10,<0.4.0
+opencv-python>=4.0.0,<5.0.0 # For image preprocessing for OCR
+# pdf2image>=1.16.0,<2.0.0  # Опционально: для конвертации PDF в изображения (требует Poppler)
+
+# API interaction
+requests>=2.25.0,<3.0.0    # For making HTTP requests (e.g., to DeepSeek API)
+
+# Опционально, для продвинутого NER (если использовать):
+# spacy>=3.0.0,<4.0.0
+# natasha>=1.6.0,<2.0.0
+# Или другие библиотеки для NLP
+
+# Опционально, для валидации данных (хорошая практика):
+# pydantic>=2.0.0,<3.0.0
