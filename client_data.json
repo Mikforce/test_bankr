@@ -1,0 +1,48 @@
+{
+    "fio": "Иванов Иван Иванович",
+    "birth_date": "15.05.1985",
+    "birth_place": "г. Москва",
+    "address_registration": "г. Москва, ул. Ленина, д. 1, кв. 10",
+    "address_actual": "г. Москва, ул. Мира, д. 5, кв. 20",
+    "passport_series": "4500",
+    "passport_number": "123456",
+    "passport_issued_by": "ОВД 'Тверской' г. Москвы",
+    "passport_issue_date": "20.06.2005",
+    "inn": "123456789012",
+    "snils": "123-456-789 00",
+    "marital_status": "женат/замужем",
+    "spouse_fio": "Иванова Мария Петровна",
+    "children": [
+        {"fio": "Иванов Петр Иванович", "birth_date": "10.01.2010"},
+        {"fio": "Иванова Анна Ивановна", "birth_date": "05.03.2015"}
+    ],
+    "employment_status": "безработный",
+    "last_work_place": "ООО 'Ромашка'",
+    "last_work_position": "менеджер",
+    "last_work_dismissal_date": "01.12.2023",
+    "total_debt_amount": 1500000.00,
+    "creditors": [
+        {
+            "name": "ПАО 'СберБанк'",
+            "address": "г. Москва, ул. Вавилова, д. 19",
+            "debt_amount": 800000.00,
+            "reason": "Кредитный договор №123 от 01.01.2022"
+        },
+        {
+            "name": "АО 'Альфа-Банк'",
+            "address": "г. Москва, ул. Каланчевская, д. 27",
+            "debt_amount": 700000.00,
+            "reason": "Кредитная карта №456"
+        }
+    ],
+    "property": [
+        {"type": "Квартира", "description": "Однокомнатная, 35 кв.м.", "address": "г. Москва, ул. Ленина, д. 1, кв. 10", "is_pledged": false},
+        {"type": "Автомобиль", "description": "Lada Granta, 2018 г.в.", "vin": "XTA12345678901234", "is_pledged": true, "pledge_holder": "ПАО 'СберБанк'"}
+    ],
+    "bank_accounts": [
+        {"bank_name": "ПАО 'СберБанк'", "account_number": "40817810000000001234", "balance": 1500.50},
+        {"bank_name": "АО 'Тинькофф Банк'", "account_number": "40817810000000005678", "balance": 250.00}
+    ],
+    "sro_name": "АССОЦИАЦИЯ АРБИТРАЖНЫХ УПРАВЛЯЮЩИХ 'СИРИУС'",
+    "sro_address": "123456, г. Некийгород, ул. Примерная, д.1"
+}
